@@ -1,17 +1,5 @@
 # Getting-and-Cleaning-Data
----
 
-title: "Getting-and-Cleaning-Data"
-
-date: "2015-06-19"
-
-output:
-
-  html_document:
-
-    keep_md: yes
-
----
 This is repository for the course project of the "Getting and Cleaning Data" class in coursrea's Data Science Track by Jeff Leek, PhD, Roger D. Peng, PhD, Brian Caffo, PhD from John Hopkins Unversity.
 
 The purpose of this project is to demonstrate the ability to collect, work with, and clean a data set. The goal is to prepare tidy data that can be used for later analysis. 
