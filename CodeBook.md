@@ -74,14 +74,13 @@ b.	source(“run_analysis.R”)
 
 ##Description of the variables in the "Tidy Data Set with the Average.txt" file
  
-General description of the file including:
 
  - Dimensions of the dataset
      180 * 68
  - Summary of the data: 
      Data is the mean value for each of the following 66 variable from six subjects per activity.  
  - Variables present in the dataset
-	*   tBodyAcc-mean()-X          
+*               tBodyAcc-mean()-X          
 *		tBodyAcc-mean()-Y 
 *		tBodyAcc-mean()-Z 
 *		tBodyAcc-std()-X           
