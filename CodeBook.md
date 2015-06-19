@@ -37,7 +37,7 @@ These signals were used to estimate variables of the feature vector for each pat
 The sensor signals (accelerometer and gyroscope) were pre-processed by applying noise filters and then sampled in fixed-width sliding windows of 2.56 sec and 50% overlap (128 readings/window). The sensor acceleration signal, which has gravitational and body motion components, was separated using a Butterworth low-pass filter into body acceleration and gravity. The gravitational force is assumed to have only low frequency components, therefore a filter with 0.3 Hz cutoff frequency was used. From each window, a vector of features was obtained by calculating variables from the time and frequency domain. See 'features_info.txt' for more details. 
 
  
-##Creating the tidy datafile
+##Creating the tidy data file
 
  
 ###Guide to create the tidy data file
@@ -68,18 +68,18 @@ b.	source(“run_analysis.R”)
 11.	Label the subject_data with name subject.
 12.	Combine all column from subject_data, y_data, x_data_interested and store into one all_interested_data data frame.
 13.	A tidy data set is created from the above all_interested_data with the average of each variable. We will use the ddply function to split data frame by subject and activity,then calculate the column mean for all columns.  Before we can use the ddply funciton we need to import the plyr R package to Rstudio.  Store the tidy data into averages_all_interested_data data frame.
-14.	Write the data frame into a text file, Tidy Data Set with the Average.txt, in current working directory.  
+14.	Write the data frame into a text file, "Tidy Data Set with the Average.txt", in current working directory.  
 
  
 
-##Description of the variables in the Tidy Data Set with the Average.txt file
+##Description of the variables in the "Tidy Data Set with the Average.txt" file
  
 General description of the file including:
 
  - Dimensions of the dataset
      180 * 68
  - Summary of the data: 
-     Data is the mean value for each of the following 66 variable for six subjects per activity.  
+     Data is the mean value for each of the following 66 variable from six subjects per activity.  
  - Variables present in the dataset
 	*   tBodyAcc-mean()-X          
 *		tBodyAcc-mean()-Y 
@@ -149,7 +149,6 @@ General description of the file including:
 *		fBodyBodyGyroJerkMag-std()
 
 
-	  
 	 ###  Abbreviations for the variables
 
 			t           Time
@@ -158,13 +157,13 @@ General description of the file including:
 			Gyro        gyroscope
 			Body        Body
 			Gravity     Gravity
-			Jerk		Jerk 
+			Jerk	    Jerk 
 			Mag         magnitude 
 			mean()      mean 
 			std()       Standard deviation
 			X           axial X
 			Y           axial Y
-			Z			axial Z
+			Z	    axial Z
  
 
 ##References
