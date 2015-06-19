@@ -1,18 +1,3 @@
----
-
-title: "CodeBook of the Getting and Cleaning Data Course Project"
-
-date: "2015-06-19"
-
-output: "Tidy Data Set with the Average.txt"
-
-  html_document:
-
-    keep_md: yes
-
----
-
- 
 
 ## Project Description
 
