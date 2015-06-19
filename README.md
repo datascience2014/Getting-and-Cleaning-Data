@@ -25,7 +25,7 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 a.	Change the work directory to the “UCI HAR Dataset” folder  setwd(“C:/UCI HAR Dataset”)
 b.	source(“run_analysis.R”)
 5.	The script will produce the “Tidy Data Set with the Average.txt” in the C:/UCI HAR Dataset folder.  It is a txt file that contains the tidy data set (180 * 68 dimensions) with the average of each variable for each activity and each subject. There are 6 activities and 30 subjects.  Therefore the data contains 180 rows and 68 columns (2 descriptive column, subject and activity, and 66 columns for measures).
-6.	Use data <- read.table("Tidy Data Set with the Average.txt ") command in RStudio to read the file. 
+6.	Use data <- read.table("Tidy Data Set with the Average.txt") command in RStudio to read the file. 
 
  
 
