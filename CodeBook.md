@@ -148,7 +148,7 @@ b.	source(“run_analysis.R”)
 *		fBodyBodyGyroJerkMag-std()
 
 
-	 ###  Abbreviations for the variables
+###  Abbreviations for the variables
 
 			t           Time
 			f           Frequency
