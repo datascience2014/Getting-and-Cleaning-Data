@@ -4,7 +4,7 @@ title: "CodeBook of the Getting and Cleaning Data Course Project"
 
 date: "2015-06-19"
 
-output:
+output: "Tidy Data Set with the Average.txt"
 
   html_document:
 
@@ -148,21 +148,22 @@ b.	source(“run_analysis.R”)
 *		fBodyBodyGyroJerkMag-std()
 
 
-###  Abbreviations for the variables
+##  Abbreviations for the variables
 
-			t           Time
-			f           Frequency
-			Acc         accelerometer
-			Gyro        gyroscope
-			Body        Body
-			Gravity     Gravity
-			Jerk	    Jerk 
-			Mag         magnitude 
-			mean()      mean 
-			std()       Standard deviation
-			X           axial X
-			Y           axial Y
-			Z	    axial Z
+*		t           Time
+*		f           Frequency
+*		Acc         accelerometer
+*	    	Gyro        gyroscope
+*		Body        Body
+*		Gravity     Gravity
+*		Jerk	    Jerk Movement
+*		Mag         magnitude 
+*		mean()      mean 
+*		std()       Standard deviation
+*		X           axial X
+*               Y           axial Y
+*		Z	    axial Z
+		
  
 
 ##References
