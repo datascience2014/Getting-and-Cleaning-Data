@@ -64,7 +64,7 @@ b.	source(“run_analysis.R”)
      180 * 68
  - Summary of the data: 
      Data is the mean value for each of the following 66 variable from six subjects per activity.  
- - Variables present in the dataset
+ - Variables present in the dataset (All variables type are "Factor w/ 181 levels")
 *               tBodyAcc-mean()-X          
 *		tBodyAcc-mean()-Y 
 *		tBodyAcc-mean()-Z 
